@@ -1,5 +1,5 @@
 const { Pull, Push, HEADERBYTES, KEYBYTES, ABYTES } = require('sodium-secretstream')
-const sodium = require('sodium-universal')
+const sodium = require('sodium-javascript')
 const crypto = require('hypercore-crypto')
 const { Duplex, Writable, getStreamError } = require('streamx')
 const b4a = require('b4a')
